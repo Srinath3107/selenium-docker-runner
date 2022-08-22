@@ -26,7 +26,7 @@ pipeline{
 			//sh "docker-compose down"
 			bat "docker-compose down"
 			//sh "sudo rm -rf output/"
-			bat "sudo rm -rf output/"
+			//bat "sudo rm -rf output/"
 		}
 	}
 }
